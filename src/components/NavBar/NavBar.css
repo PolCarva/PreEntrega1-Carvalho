@@ -1,0 +1,59 @@
+.header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-left: .5rem;
+}
+
+.logo-img {
+    width: 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-left: 2em;
+    padding: 1em 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+li:first-of-type {
+    margin-left: 0;
+}
+
+
+li::before {
+    content: "";
+    position: absolute;
+    border-radius: 2px;
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    inset: 2.5em 0;
+    transition: all 0.3s ease;
+
+}
+
+li:hover::before {
+    width: 100%;
+
+}
