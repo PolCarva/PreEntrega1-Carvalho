@@ -1,0 +1,21 @@
+.cart-widget {
+    position: relative;
+    padding: 0 1em;
+    cursor: pointer;
+}
+.cart-widget img {
+    width: 3em;
+}
+
+.cart-amount {
+    font-weight: bold;
+    font-size: 0.8em;
+    position: absolute;
+    top: -0.8em;
+    right: 0;
+    color: white;
+    background-color: rgb(33, 165, 33);
+    padding: 0.5em 0.8em;
+    text-align: center;
+    border-radius: 50%;
+}
